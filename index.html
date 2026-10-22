@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedro A. Hinojosa — DM - UFPB</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: #d0d0b4 url('imagens/fundo.gif') repeat; color: #26372c; font-family: 'Times New Roman', Times, serif; }
+a { color: #253d83; }
+.page { max-width: 1240px; margin: 0 auto; padding: 22px 22px 26px; }
+header { display: grid; grid-template-columns: 322px 1fr; align-items: start; gap: 65px; max-width: 1100px; margin: 0 auto 37px; }
+.photo { width: 286px; height: 246px; object-fit: cover; object-position: center; display: block; }
+.bio { text-align: center; padding: 4px 0 0; }
+h1 { font-size: 32px; margin: 0 0 11px; } h2 { font-size: 29px; margin: 0 0 14px; }
+.bio p { font-size: 13px; margin: 12px 0; } .bio .lattes { font-size: 15px; font-weight: bold; }
+.table-wrap { overflow-x: auto; }
+table.courses { border: 2px solid #243c6b; border-collapse: collapse; width: 700px; max-width: 100%; margin: 0 auto; background: transparent; }
+.courses th,.courses td { border: 1px solid #243c6b; padding: 5px 10px; }
+.courses th { font-size: 20px; color: #243c6b; line-height: 1.1; }
+.courses td { vertical-align: top; font-size: 14px; }
+.courses .subjects { width: 51%; color: #243c6b; font-size: 20px; font-weight: bold; }
+.courses .papers { width: 39%; } .courses .personal { width: 10%; vertical-align: bottom; text-align: center; font-size: 12px; font-weight: bold; }
+.courses ul { margin: 0; padding-left: 25px; } .courses li { margin: 0 0 3px; }
+.courses .subjects a { text-decoration: none; color: inherit; } .courses .papers p { margin: 14px 0 2px; }
+footer { margin: 54px auto 0; max-width: 1060px; }
+.logos { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.logo { text-align: center; flex: 0 1 auto; } .logo img { display: block; max-width: 100%; height: auto; object-fit: contain; }
+.logo.gmail img { width: 102px; } .logo.zimbra img { width: 110px; margin-top: 8px; }
+.logo.math img { width: 125px; } .logo.pgmat img { width: 110px; } .logo.profmat img { width: 77px; }
+.logo.sbm img { width: 67px; margin: auto; } .logo.ufpb img { width: 36px; }
+.logo.cnpq img { width: 82px; } .logo.capes img { width: 75px; }
+.logo.dm { min-width: 83px; font: bold 14px Arial,sans-serif; }
+.logo.sbm small { display: block; white-space: nowrap; font-size: 11px; }
+@media(max-width: 760px) { .page { padding: 18px 12px; } header { grid-template-columns: 1fr; gap: 12px; justify-items: center; margin-bottom: 28px; } .bio { padding: 0; } h1 { font-size: 28px; } h2 { font-size: 25px; } .courses { min-width: 610px; } .logos { flex-wrap: wrap; justify-content: center; gap: 22px; } }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <img class="photo" src="imagens/Eu-Chue-2010.jpg" alt="Fotografia do professor Pedro A. Hinojosa">
+  <div class="bio">
+    <h1>Pedro A. Hinojosa</h1>
+    <h2>DM - UFPB</h2>
+    <p>E-mail: <a href="mailto:hinojosa@mat.ufpb.br">hinojosa@mat.ufpb.br</a></p>
+    <p class="lattes"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4727928E5" target="_blank" rel="noopener noreferrer">Currículo Lattes</a></p>
+  </div>
+</header>
+<main>
+<div class="table-wrap">
+<table class="courses">
+  <thead><tr><th>Disciplinas</th><th></th><th></th></tr></thead>
+  <tbody><tr>
+    <td class="subjects"><ul>
+      <li><a href="C3/Calculo%203.htm" target="_blank">Cálculo Diferencial e Integral III</a></li>
+      <li><a href="CVGA/CVGA.htm" target="_blank">Cálculo Vetorial e Geometria Analítica</a></li>
+      <li><a href="MA11/MA11.htm" target="_blank">MA11 - Números e Funções Reais</a></li>
+    </ul></td>
+    <td class="papers"><ul>
+      <li><a href="http://www.mat.ufpb.br/hinojosa/Artigos/artigos.htm">Artigos</a></li>
+      <li><a href="http://www.mat.ufpb.br/hinojosa/Dissertacoes/dissert-orientadas.htm">Dissertações Orientadas</a></li>
+      <li>Tese de Doutorado</li><li>etc.</li><li>etc.</li>
+    </ul><p>Esta parte vou completar ... algum dia.</p></td>
+    <td class="personal"><a href="pessoal.htm">Pessoal</a></td>
+  </tr></tbody>
+</table>
+</div>
+</main>
+<footer><div class="logos">
+  <div class="logo"><a class="gmail" href="https://mail.google.com/"><img src="imagens/GMail.jpg" width="102" alt="Gmail"></a><a class="zimbra" href="https://webmail.ufpb.br/"><img src="imagens/Zimbra.GIF" width="110" alt="Zimbra"></a></div>
+  <a class="logo math" href="https://mathscinet.ams.org/"><img src="imagens/mathscinet.png" alt="MathSciNet"></a>
+  <a class="logo pgmat" href="http://www.mat.ufpb.br/pgmat"><img src="imagens/pgmat.jpg" alt="PGmat"></a>
+  <a class="logo profmat" href="https://profmat-sbm.org.br/"><img src="imagens/profmat.png" alt="PROFMAT"></a>
+  <a class="logo dm" href="http://www.mat.ufpb.br/">DM - UFPB</a>
+  <a class="logo sbm" href="http://www.mat.ufpb.br/bienalsbm/"><img src="imagens/sbm_small.jpg" alt="V Bienal da SBM"><small>V Bienal da SBM</small></a>
+  <a class="logo ufpb" href="https://www.ufpb.br/"><img src="imagens/brasao2_small.gif" alt="Brasão da UFPB"></a>
+  <a class="logo cnpq" href="https://www.gov.br/cnpq/"><img src="imagens/logo-cnpq.jpg" alt="CNPq"></a>
+  <a class="logo capes" href="https://www.gov.br/capes/"><img src="imagens/logo-capes.gif" alt="CAPES"></a>
+</div></footer>
+</div>
+</body>
+</html>

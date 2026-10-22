@@ -1,0 +1,4 @@
+Abra index.html no navegador para visualizar.
+Para publicar, envie index.html e a pasta imagens ao mesmo repositório GitHub.
+HTML e CSS estão juntos em index.html.
+Os links para C3, CVGA, MA11 e pessoal.htm dependem de páginas adicionais que não foram fornecidas.
